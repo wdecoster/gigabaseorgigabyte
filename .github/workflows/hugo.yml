@@ -59,15 +59,6 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Debug - Show artifact structure
-        run: |
-          echo "=== Full public directory structure ==="
-          find public -type f -name "*.html" | head -50
-          echo "=== Check about directory ==="
-          ls -la public/about/ || echo "NO about directory!"
-          cat public/about/index.html | head -20 || echo "NO about/index.html!"
-          echo "=== Check projects directory ==="
-          ls -la public/projects/ || echo "NO projects directory!"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
