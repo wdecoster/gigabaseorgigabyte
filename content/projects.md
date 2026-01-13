@@ -1,6 +1,7 @@
 ---
 title: "Projects"
 date: 2026-01-13
+layout: single
 ---
 
 # My Projects

@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 date: 2026-01-13
+layout: single
 ---
 
 # Get in Touch
