@@ -2,26 +2,24 @@
 title: "Projects"
 date: 2024-01-01
 draft: false
-type: page
 ---
 
-# My Projects
+# Projects
 
-Here are some of the bioinformatics tools and projects I've developed:
+Here are some of the tools and projects I've developed:
 
-## Cramino
-A fast QC tool for long-read sequencing data, written in Rust. Extracts features from CRAM and BAM files for quality assessment.
-
-## Kyber
-A minimalistic quality assessment plot for long reads, showing a heatmap of read length vs accuracy.
-
-## Phasius
-Visualization tool for phase blocks in long-read sequencing data.
-
-## Methplotlib
-Tool for visualization and analysis of modified nucleotides from nanopore sequencing.
+## NanoPlot
+Quality control and visualization for long-read sequencing data.  
+[GitHub](https://github.com/wdecoster/NanoPlot)
 
 ## NanoStat
-Quality assessment tool for Oxford Nanopore sequencing data.
+Calculate statistics for long-read sequencing data.  
+[GitHub](https://github.com/wdecoster/NanoStat)
 
-*More projects can be found on my [GitHub profile](https://github.com/wdecoster).*
+## cramino
+Fast quality metrics for cram/bam files.  
+[GitHub](https://github.com/wdecoster/cramino)
+
+## chopper
+Filtering and trimming of long-read sequencing data.  
+[GitHub](https://github.com/wdecoster/chopper)
