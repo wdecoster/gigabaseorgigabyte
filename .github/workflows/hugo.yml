@@ -50,6 +50,15 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Debug content directory
+        run: |
+          echo "=== Content directory structure ==="
+          ls -la content/
+          echo "=== About.md frontmatter ==="
+          head -20 content/about.md
+          echo "=== Theme structure ==="
+          ls -la themes/
+          ls -la themes/hermit-v2/ || echo "Theme directory missing!"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -58,6 +67,7 @@ jobs:
           hugo \
             --gc \
             --minify \
+            --verbose \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Verify build output
         run: |
