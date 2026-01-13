@@ -21,3 +21,5 @@ I'm Wouter De Coster, a bioinformatician with a focus on long-read sequencing te
 - [Bluesky](https://bsky.app/profile/wdecoster.bsky.social)
 - [LinkedIn](https://www.linkedin.com/in/wouter-de-coster-b0b28082)
 - [GitHub](https://github.com/wdecoster)
+
+If my software or blog posts have been helpful to you, feel free to buy me a coffee: [Buy Me a Coffee](https://www.buymeacoffee.com/wdecoster).
