@@ -1,7 +1,7 @@
 baseURL = "https://wdecoster.github.io/gigabaseorgigabyte/"
 languageCode = "en-us"
 title = "Gigabase or gigabyte"
-theme = "hermit-v2"
+theme = ["hermit-v2"]
 enableRobotsTXT = true
 
 rssLimit = 10
