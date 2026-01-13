@@ -50,19 +50,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Debug content directory
-        run: |
-          echo "=== Content directory structure ==="
-          ls -la content/
-          echo "=== About.md frontmatter ==="
-          head -20 content/about.md
-          echo "=== Theme structure ==="
-          ls -la themes/
-          ls -la themes/hermit-v2/ || echo "Theme directory missing!"
-          echo "=== Root layouts directory ==="
-          ls -la layouts/ || echo "Layouts directory missing!"
-          echo "=== Root layouts/partials ==="
-          ls -la layouts/partials/ || echo "Partials missing!"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
@@ -71,13 +58,8 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --verbose \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Verify build output
-        run: |
-          echo "Checking for about/projects/contact..."
-          ls -la public/about/ public/projects/ public/contact/ || echo "MISSING PAGES!"
-          echo "Total HTML files:"
+      - name: Upload artifact
           find public -name "*.html" | wc -l
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
