@@ -1,7 +1,6 @@
 ---
 title: "About"
 date: 2026-01-13
-layout: single
 ---
 
 # About Me
