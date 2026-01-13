@@ -44,6 +44,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+      - name: Debug - List theme files
+        run: |
+          echo "Checking theme directory structure..."
+          ls -la themes/
+          echo "Checking theme partials..."
+          ls -la themes/hermit-v2/layouts/_partials/
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
