@@ -1,0 +1,183 @@
+nohup: ignoring input
+Extracting image URLs from posts...
+
+Found 83 unique images
+
+============================================================
+
+Download all 83 images? [y/N]: 
+Downloading images...
+
+[1/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/04/countinginsertions-e1492174493947.png
+  ✓ Already exists: countinginsertions-e1492174493947.png
+[2/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/04/editdistancescompared_scatter.png
+  ✓ Already exists: editdistancescompared_scatter.png
+[3/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/04/lengthhistogram.png
+  ✓ Already exists: lengthhistogram.png
+[4/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/04/perbasesequencecontent.png
+  ✓ Already exists: perbasesequencecontent.png
+[5/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/04/perbasesequencequality.png
+  ✓ Already exists: perbasesequencequality.png
+[6/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/04/progressbar-example.jpg
+  ✓ Already exists: progressbar-example.jpg
+[7/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/05/perbasesequencecontent.png
+  ✓ Already exists: perbasesequencecontent.png
+[8/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/05/perbasesequencequality.png
+  ✓ Already exists: perbasesequencequality.png
+[9/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/fastq-log_lengthvsqualityscatterplot_kde.png
+  ✓ Downloaded: fastq-log_lengthvsqualityscatterplot_kde.png
+[10/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/fixed-log_lengthvsqualityscatterplot_kde.png
+  ✓ Downloaded: fixed-log_lengthvsqualityscatterplot_kde.png
+[11/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/perbasesequencecontentquality.png
+  ✓ Downloaded: perbasesequencecontentquality.png
+[12/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/percentidentityvsaveragebasequality_kde.png
+  ✓ Downloaded: percentidentityvsaveragebasequality_kde.png
+[13/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_alignedreadlengthvssequencedreadlength_scatter.png
+  ✓ Downloaded: scaled_alignedreadlengthvssequencedreadlength_scatter.png
+[14/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_log_downsampled_histogramreadlength1.png
+  ✓ Downloaded: scaled_log_downsampled_histogramreadlength1.png
+[15/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_log_downsampled_lengthvsqualityscatterplot_hex.png
+  ✓ Downloaded: scaled_log_downsampled_lengthvsqualityscatterplot_hex.png
+[16/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_log_downsampled_lengthvsqualityscatterplot_kde.png
+  ✓ Downloaded: scaled_log_downsampled_lengthvsqualityscatterplot_kde.png
+[17/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_log_downsampled_mappingqualityvsreadlength_kde.png
+  ✓ Downloaded: scaled_log_downsampled_mappingqualityvsreadlength_kde.png
+[18/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_mappingqualityvsaveragebasequality_kde.png
+  ✓ Downloaded: scaled_mappingqualityvsaveragebasequality_kde.png
+[19/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_outliersremoved_downsampled_histogramreadlength.png
+  ✓ Downloaded: scaled_outliersremoved_downsampled_histogramreadlength.png
+[20/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_outliersremoved_downsampled_lengthvsqualityscatterplot_kde.png
+  ✓ Downloaded: scaled_outliersremoved_downsampled_lengthvsqualityscatterplot_kde.png
+[21/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_outliersremoved_downsampled_mappingqualityvsreadlength_kde.png
+  ✓ Already exists: scaled_outliersremoved_downsampled_mappingqualityvsreadlength_kde.png
+[22/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_percentidentityvsalignedreadlength_kde.png
+  ✓ Already exists: scaled_percentidentityvsalignedreadlength_kde.png
+[23/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_percentidentityvsaveragebasequality_kde.png
+  ✓ Already exists: scaled_percentidentityvsaveragebasequality_kde.png
+[24/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/scaled_percentidentityvsaveragebasequality_kde1.png
+  ✓ Already exists: scaled_percentidentityvsaveragebasequality_kde1.png
+[25/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/06/summary-log_lengthvsqualityscatterplot_kde.png
+  ✓ Already exists: summary-log_lengthvsqualityscatterplot_kde.png
+[26/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/07/basecallqualitydistribution2.png
+  ✓ Already exists: basecallqualitydistribution2.png
+[27/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/07/medianvsmeanqualityscores_kde1.png
+  ✓ Already exists: medianvsmeanqualityscores_kde1.png
+[28/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/07/medianvspercentidentity_kde.png
+  ✓ Already exists: medianvspercentidentity_kde.png
+[29/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/07/scaled_avequalvssummary_kde.png
+  ✓ Already exists: scaled_avequalvssummary_kde.png
+[30/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/08/distributionofscores3.png
+  ✓ Already exists: distributionofscores3.png
+[31/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/08/distributionofscores_lower.png
+  ✓ Already exists: distributionofscores_lower.png
+[32/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/08/july_preprints.png
+  ✓ Already exists: july_preprints.png
+[33/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/08/spaghetti1.png
+  ✓ Already exists: spaghetti1.png
+[34/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/08/spaghetti2.png
+  ✓ Already exists: spaghetti2.png
+[35/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/08/toppreprints.png
+  ✓ Already exists: toppreprints.png
+[36/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/11/combined1.png
+  ✓ Already exists: combined1.png
+[37/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/11/combined_images.png
+  ✓ Already exists: combined_images.png
+[38/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/12/gender_plot_anonymized.png
+  ✓ Already exists: gender_plot_anonymized.png
+[39/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2017/12/genderspecificexpression.jpeg
+  ✓ Already exists: genderspecificexpression.jpeg
+[40/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/01/genderspecificexpression.jpeg
+  ✓ Already exists: genderspecificexpression.jpeg
+[41/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/01/genderspecificexpression_normalised.jpeg
+  ✓ Already exists: genderspecificexpression_normalised.jpeg
+[42/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/03/indelratio_fail.png
+  ✓ Already exists: indelratio_fail.png
+[43/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/03/indelratio_success.png
+  ✓ Already exists: indelratio_success.png
+[44/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/05/nanocomp_log_length1.png
+  ✓ Already exists: nanocomp_log_length1.png
+[45/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/05/nanocomp_total_throughput1.png
+  ✓ Already exists: nanocomp_total_throughput1.png
+[46/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/05/timequalityviolinplot.png
+  ✓ Already exists: timequalityviolinplot.png
+[47/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/08/percentidentityvsaveragebasequality_kde.png
+  ✓ Already exists: percentidentityvsaveragebasequality_kde.png
+[48/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/11/screenshot.png
+  ✓ Already exists: screenshot.png
+[49/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/11/waffle-plot-combined.png
+  ✓ Already exists: waffle-plot-combined.png
+[50/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/logreadlength_cropped.png
+  ✓ Already exists: logreadlength_cropped.png
+[51/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/molarity_vs_yield.png
+  ✓ Already exists: molarity_vs_yield.png
+[52/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/percentIdentityOverTimeViolin.png
+  ✓ Already exists: percentIdentityOverTimeViolin.png
+[53/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/pores_vs_yield.png
+  ✓ Already exists: pores_vs_yield.png
+[54/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/quality_over_time.png
+  ✓ Already exists: quality_over_time.png
+[55/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/speed_over_time.jpg
+  ✓ Already exists: speed_over_time.jpg
+[56/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/yield_cropped.png
+  ✓ Already exists: yield_cropped.png
+[57/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2018/12/yield_vs_n50.png
+  ✓ Already exists: yield_vs_n50.png
+[58/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2019/01/image-1.png
+  ✓ Already exists: image-1.png
+[59/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2019/01/image.png
+  ✓ Already exists: image.png
+[60/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2019/04/upsetplot.png
+  ✓ Already exists: upsetplot.png
+[61/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2019/05/image-1.png
+  ✓ Already exists: image-1.png
+[62/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2019/05/image-2.png
+  ✓ Already exists: image-2.png
+[63/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2019/05/image.png
+  ✓ Already exists: image.png
+[64/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/01/end_reason.png?w=700
+  ✓ Downloaded: end_reason.png
+[65/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/01/end_reason_relative.png?w=700
+  ✓ Downloaded: end_reason_relative.png
+[66/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/01/image.png?w=1024
+  ✓ Already exists: image.png
+[67/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/actb.png?w=700
+  ✓ Downloaded: actb.png
+[68/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/camkk2.png?w=700
+  ✓ Downloaded: camkk2.png
+[69/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/example.png?w=700
+  ✓ Downloaded: example.png
+[70/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/gnas.png?w=700
+  ✓ Downloaded: gnas.png
+[71/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/overlaying_frequencies.png?w=700
+  ✓ Downloaded: overlaying_frequencies.png
+[72/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/qc_bar.png?w=700
+  ✓ Downloaded: qc_bar.png
+[73/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/qc_corr.png?w=1024
+  ✓ Downloaded: qc_corr.png
+[74/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/qc_pca.png?w=700
+  ✓ Downloaded: qc_pca.png
+[75/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/02/x-inactivation.png?w=700
+  ✓ Downloaded: x-inactivation.png
+[76/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/04/image.png?w=1024
+  ✓ Already exists: image.png
+[77/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/09/image-1.png?w=1024
+  ✓ Already exists: image-1.png
+[78/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/09/image-2.png?w=1024
+  ✓ Already exists: image-2.png
+[79/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2020/09/image.png?w=1024
+  ✓ Already exists: image.png
+[80/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2022/10/image.png?w=931
+  ✓ Already exists: image.png
+[81/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2022/12/image.png?w=585
+  ✓ Already exists: image.png
+[82/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2023/01/newplot.png?w=1024
+  ✓ Downloaded: newplot.png
+[83/83] https://gigabaseorgigabyte.wordpress.com/wp-content/uploads/2023/02/image.png?w=601
+  ✓ Already exists: image.png
+
+============================================================
+Download complete: 83 succeeded, 0 failed
+
+Updating image paths in posts to use local images...
+
+✓ Image paths updated

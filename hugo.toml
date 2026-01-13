@@ -1,0 +1,102 @@
+baseURL = "https://wdecoster.github.io/gigabaseorgigabyte/"
+languageCode = "en-us"
+title = "Gigabase or gigabyte"
+theme = "hermit-v2"
+enableRobotsTXT = true
+
+rssLimit = 10
+
+copyright = "© Wouter De Coster"
+enableEmoji = true
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+[params.author]
+  name = "Wouter De Coster"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = false
+    style = "monokai"
+    tabWidth = 4
+
+[params]
+  description = "Exploring bioinformatics"
+  themeColor = "#494f5c"
+  accentColor = "#018472"
+
+  homeSubtitle = "Exploring bioinformatics"
+  footerCopyright = "© 2020-2026 Wouter De Coster"
+  
+  justifyContent = false
+  relatedPosts = true
+  code_copy_button = true
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = " · "
+  shareSocial = true
+
+  [params.gallery]
+    enable = true
+    thumbnail = '300'
+
+  [params.dateform]
+    CopyrightDate = "2006"
+    LongDate = "January 2, 2006"
+    ShortDate = "Jan 2"
+    NumDateShort = "2006-01-02"
+    NumDateLong = "2006-01-02 15:04"
+  
+  [[params.socialLinks]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/wdecoster.bsky.social"
+
+  [[params.socialLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/wouter-de-coster-b0b28082"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/wdecoster"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "posts/"
+    weight = 10
+
+  [[menu.main]]
+    name = "About"
+    url = "about/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Projects"
+    url = "projects/"
+    weight = 30
+
+  [[menu.main]]
+    name = "Contact"
+    url = "contact/"
+    weight = 40
