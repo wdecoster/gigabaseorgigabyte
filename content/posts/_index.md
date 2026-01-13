@@ -1,1 +1,3 @@
----\ntitle: "Posts"\n---
+---
+title: "Posts"
+---
