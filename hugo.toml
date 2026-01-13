@@ -43,6 +43,7 @@ expiryDate = ["expiryDate"]
   description = "Exploring bioinformatics"
   themeColor = "#494f5c"
   accentColor = "#018472"
+  favicon = "images/favicon.jpg"
 
   homeSubtitle = "Exploring bioinformatics"
   footerCopyright = "© 2020-2026 Wouter De Coster"
