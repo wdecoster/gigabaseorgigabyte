@@ -59,6 +59,12 @@ jobs:
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Verify build output
+        run: |
+          echo "Checking for about/projects/contact..."
+          ls -la public/about/ public/projects/ public/contact/ || echo "MISSING PAGES!"
+          echo "Total HTML files:"
+          find public -name "*.html" | wc -l
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
