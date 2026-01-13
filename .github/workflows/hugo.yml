@@ -59,6 +59,10 @@ jobs:
           echo "=== Theme structure ==="
           ls -la themes/
           ls -la themes/hermit-v2/ || echo "Theme directory missing!"
+          echo "=== Root layouts directory ==="
+          ls -la layouts/ || echo "Layouts directory missing!"
+          echo "=== Root layouts/partials ==="
+          ls -la layouts/partials/ || echo "Partials missing!"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
