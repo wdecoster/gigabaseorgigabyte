@@ -1,1 +1,4 @@
-../../themes/hermit-v2/layouts/_partials/comments.html
+{{- if .Site.Config.Services.Disqus.Shortname -}} 
+{{ template "_internal/disqus.html" . }}
+{{- end -}}
+

@@ -1,1 +1,4 @@
-../../themes/hermit-v2/layouts/_partials/analytics.html
+{{/* Google Analytics 4, use UA-PROPERTY_ID */}}
+{{- if .Site.Config.Services.GoogleAnalytics.ID -}} 
+{{ partial "google_analytics.html" . }}
+{{- end -}}
