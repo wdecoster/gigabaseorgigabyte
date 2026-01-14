@@ -1,6 +1,6 @@
 # Gigabase or gigabyte
 
-Hugo-based blog about bioinformatics and long-read sequencing.
+Hugo-based blog about bioinformatics and long-read sequencing, available at https://wdecoster.github.io/gigabaseorgigabyte/ 
 
 ## Local Development
 
