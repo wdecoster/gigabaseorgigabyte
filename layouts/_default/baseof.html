@@ -1,6 +1,6 @@
 {{- $rootCtx := . -}}
 <!DOCTYPE html>
-<html lang="{{.Site.LanguageCode}}">
+<html lang="{{.Site.Language.Locale}}">
 
 <head>
 	{{- partial "google-tag-manager.html" (dict "context" . "name" "head") -}}
@@ -40,7 +40,7 @@
 	<script async src="{{ $script.Permalink }}" {{ printf "integrity=%q" $script.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
 	{{- end -}}
 	{{- if and (not (eq .Site.Params.shareSocial nil)) (.Site.Params.shareSocial) -}}
-	{{ $linkshare := resources.Get "js/link-share.js" | minify | fingerprint -}}
+	{{ $linkshare := resources.Get "js/social-share.js" | minify | fingerprint -}}
 	<script async src="{{ $linkshare.Permalink }}" {{ printf "integrity=%q" $linkshare.Data.Integrity | safeHTMLAttr }} crossorigin="anonymous"></script>
 	{{- end -}}
 	{{- range .Params.custom_js -}}
