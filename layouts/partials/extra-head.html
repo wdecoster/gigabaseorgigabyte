@@ -1,0 +1,18 @@
+<style>
+/* collapsible "The details" blocks in posts (<details><summary>The details</summary> ... </details>) */
+.content details {
+	margin: 1.2em 0;
+	padding: 0.4em 1em;
+	border-left: 3px solid {{ .Site.Params.accentColor | default "#018472" }};
+	background: rgba(255, 255, 255, 0.04);
+	border-radius: 0 4px 4px 0;
+}
+.content details summary {
+	cursor: pointer;
+	font-weight: 600;
+	opacity: 0.85;
+}
+.content details summary:hover { opacity: 1; }
+.content details[open] summary { margin-bottom: 0.6em; }
+.content details > :last-child { margin-bottom: 0.4em; }
+</style>
