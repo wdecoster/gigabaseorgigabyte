@@ -18,8 +18,8 @@ Software I have written and maintain, mostly for long-read sequencing data. Ever
 
 ## Tandem repeats
 
+- **[inquiSTR](https://github.com/wdecoster/inquiSTR)**: A toolkit for tandem repeat analysis at cohort scale. It genotypes repeat lengths from nanopore or PacBio data very quickly, and then helps you combine samples, find outliers and run association tests, compare groups and check relatedness, with plots along the way.
 - **[STRdust](https://github.com/wdecoster/STRdust)**: Genotypes tandem repeats from long reads, including large expansions.
-- **[inquiSTR](https://github.com/wdecoster/inquiSTR)**: Genotypes short tandem repeats from long reads.
 - **[trout](https://github.com/wdecoster/trout)**: Finds tandem repeat outliers in a sample, based on repeat length and sequence.
 - **[aSTRonaut](https://github.com/wdecoster/aSTRonaut)**: Visualizes tandem repeats and their structure.
 
